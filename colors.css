@@ -1,0 +1,161 @@
+.w3-grass {
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(171, 244, 164, 1) 0%, rgba(99, 188, 90, 1) 100%);
+}
+
+.w3-fire {
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255, 209, 175, 1) 0%, rgba(255, 157, 85, 1) 100%);
+}
+
+.w3-water {
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(173, 211, 251, 1) 0%, rgba(80, 144, 214, 1) 100%);
+}
+
+.w3-electric {
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(249, 233, 163, 1) 0%, rgba(244, 210, 60, 1) 100%);
+}
+
+.w3-bug {
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(214, 255, 132, 1) 0%, rgba(145, 193, 47, 1) 100%);
+}
+
+.w3-normal {
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(211, 224, 231, 1) 0%, rgba(146, 157, 163, 1) 100%);
+}
+
+.w3-poison {
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(233, 197, 250, 1) 0%, rgba(170, 107, 200, 1) 100%);
+}
+
+.w3-ground {
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255, 194, 163, 1) 0%, rgba(217, 120, 69, 1) 100%);
+}
+
+.w3-psychic {
+    height: 100% !important;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255, 188, 191, 1) 0%, rgba(250, 113, 121, 1) 100%);
+}
+
+.grass {
+    background: linear-gradient(0deg, rgba(171, 244, 164, 1) 0%, rgba(99, 188, 90, 1) 100%);
+}
+
+.fire {
+    background: linear-gradient(0deg, rgba(255, 209, 175, 1) 0%, rgba(255, 157, 85, 1) 100%);
+}
+
+.water {
+    background: linear-gradient(0deg, rgba(173, 211, 251, 1) 0%, rgba(80, 144, 214, 1) 100%);
+}
+
+.electric {
+    background: linear-gradient(0deg, rgba(249, 233, 163, 1) 0%, rgba(244, 210, 60, 1) 100%);
+}
+
+.bug {
+    background: linear-gradient(0deg, rgba(214, 255, 132, 1) 0%, rgba(145, 193, 47, 1) 100%);
+}
+
+.normal {
+    background: linear-gradient(0deg, rgba(211, 224, 231, 1) 0%, rgba(146, 157, 163, 1) 100%);
+}
+
+.poison {
+    background: linear-gradient(0deg, rgba(233, 197, 250, 1) 0%, rgba(170, 107, 200, 1) 100%);
+}
+
+.ground {
+    background: linear-gradient(0deg, rgba(255, 194, 163, 1) 0%, rgba(217, 120, 69, 1) 100%);
+}
+
+.psychic {
+    background: linear-gradient(0deg, rgba(255, 188, 191, 1) 0%, rgba(250, 113, 121, 1) 100%);
+}
+
+.ability-grass {
+    background: linear-gradient(270deg, rgba(171, 244, 164, 1) 0%, rgba(99, 188, 90, 1) 100%);
+}
+
+.ability-fire {
+    background: linear-gradient(270deg, rgba(255, 209, 175, 1) 0%, rgba(255, 157, 85, 1) 100%);
+}
+
+.ability-water {
+    background: linear-gradient(270deg, rgba(173, 211, 251, 1) 0%, rgba(80, 144, 214, 1) 100%);
+}
+
+.ability-electric {
+    background: linear-gradient(270deg, rgba(249, 233, 163, 1) 0%, rgba(244, 210, 60, 1) 100%);
+}
+
+.ability-bug {
+    background: linear-gradient(270deg, rgba(214, 255, 132, 1) 0%, rgba(145, 193, 47, 1) 100%);
+}
+
+.ability-normal {
+    background: linear-gradient(270deg, rgba(211, 224, 231, 1) 0%, rgba(146, 157, 163, 1) 100%);
+}
+
+.ability-poison {
+    background: linear-gradient(270deg, rgba(233, 197, 250, 1) 0%, rgba(170, 107, 200, 1) 100%);
+}
+
+.ability-ground {
+    background: linear-gradient(270deg, rgba(255, 194, 163, 1) 0%, rgba(217, 120, 69, 1) 100%);
+}
+
+.ability-psychic {
+    background: linear-gradient(270deg, rgba(255, 188, 191, 1) 0%, rgba(250, 113, 121, 1) 100%);
+}
+
+.color-grass {
+    color: #63BC5A;
+}
+
+.color-fire {
+    color: #FF9D55;
+}
+
+.color-water {
+    color: #5090D6;
+}
+
+.color-electric {
+    color: #F4D23C;
+}
+
+.color-bug {
+    color: #91C12F;
+}
+
+.color-normal {
+    color: #929DA3;
+}
+
+.color-poison {
+    color: #AA6BC8;
+}
+
+.color-ground {
+    color: #D97845;
+}
+
+.color-psychic {
+    color: #FA7179;
+}

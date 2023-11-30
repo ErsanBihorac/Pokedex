@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="colors.css">
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/pokeball.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body onload="displayPokemon()">
+    <div id="page" class="page">
+        <div class="header">
+            <img class="pokeball" src="img/pokeball.png" alt="pokeball">
+            <div class="header-headline">Pokedex</div>
+            <div class="inputfield-searchicon">
+                <input id="search-pokemon" onchange="filterAndCreatePokemonUrl()" class="input-search" type="text" placeholder="search pokemon">
+                <img class="search" src="img/search.png">
+            </div>
+        </div>
+
+        <div id="pokedex" class="pokedex">
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay">
+        <div id="info" class="info">
+            <div class="info-top water">
+                <img onclick="closeOverlay()" class="arrow" src="img/arrow-left.png" alt="">
+
+                <div class="info-poketype">
+                    <div>
+                        <div class="info-pokemon-name">Name</div>
+                        <div class="pokemon-type">type</div>
+                    </div>
+
+                    <div>
+                        #001
+                    </div>
+                </div>
+
+                <div class="info-pokemon-img-container">
+                    <img id="test-img" class="info-pokemon-img" src="" alt="">
+                </div>
+            </div>
+
+            <div class="info-bottom">
+                <div class="info-options color-water">
+                    <div class="selected-option water">STATS</div>
+                    <div class="unselected-option water">ABILITIES</div>
+                </div>
+
+                <div class="stats">
+                    <div class="single-stat">
+                        <div class="space-between">
+                            <div class="color-water">HP</div>
+                            <div>0</div>
+                        </div>
+                        <div class="w3-light-grey">
+                            <div class="w3-container w3-water" style="width:25%"></div>
+                        </div>
+                    </div>
+                    <div class="single-stat">
+                        <div class="space-between">
+                            <div class="color-water">ATTACK</div>
+                            <div>0</div>
+                        </div>
+                        <div class="w3-light-grey">
+                            <div class="w3-container w3-water" style="width:25%"></div>
+                        </div>
+                    </div>
+                    <div class="single-stat">
+                        <div class="space-between">
+                            <div class="color-water">DEFENSE</div>
+                            <div>0</div>
+                        </div>
+                        <div class="w3-light-grey">
+                            <div class="w3-container w3-water" style="width:25%"></div>
+                        </div>
+                    </div>
+                    <div class="single-stat">
+                        <div class="space-between">
+                            <div class="color-water">S-ATTACK</div>
+                            <div>0</div>
+                        </div>
+                        <div class="w3-light-grey">
+                            <div class="w3-container w3-water" style="width:25%"></div>
+                        </div>
+                    </div>
+                    <div class="single-stat">
+                        <div class="space-between">
+                            <div class="color-water">S-DEFENSE</div>
+                            <div>0</div>
+                        </div>
+                        <div class="w3-light-grey">
+                            <div class="w3-container w3-water" style="width:25%"></div>
+                        </div>
+                    </div>
+                    <div class="single-stat">
+                        <div class="space-between">
+                            <div class="color-water">SPEED</div>
+                            <div>0</div>
+                        </div>
+                        <div class="w3-light-grey">
+                            <div class="w3-container w3-water" style="width:25%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
