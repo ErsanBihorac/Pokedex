@@ -298,3 +298,15 @@ body {
         width: 100px;
     }
 }
+
+@media (max-width: 350px) {
+    .pokemon {
+        min-width: 250px;
+        overflow: hidden;
+    }
+
+    .img-pokemon {
+        height: 100px;
+        width: 100px;
+    }
+}
